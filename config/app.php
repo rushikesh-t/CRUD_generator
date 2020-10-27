@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+        Yajra\DataTables\ButtonsServiceProvider::class
     ],
 
     /*
