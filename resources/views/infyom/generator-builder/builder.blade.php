@@ -34,7 +34,7 @@
     }
 </style>
 <body class="skin-blue" style="background-color: #ecf0f5">
-<div class="col-md-10 col-md-offset-1">
+<div class="col-md-12">
     <section class="content">
         <div id="info" style="display: none"></div>
         <div class="box box-primary col-lg-12">
@@ -61,7 +61,7 @@
                         <label for="txtCustomTblName">Custom Table Name</label>
                         <input type="text" class="form-control" id="txtCustomTblName" placeholder="Enter table name">
                     </div>
-                    <div class="form-group col-md-8">
+                    <div class="form-group col-md-12">
                         <label for="txtModelName">Options</label>
 
                         <div class="form-inline form-group" style="border-color: transparent">
@@ -110,12 +110,12 @@
                         </div>
                     </div>
 
-                    <div class="form-group col-md-3">
+                    <div class="form-group col-md-6">
                         <label for="txtPrefix">Prefix</label>
                         <input type="text" class="form-control" id="txtPrefix" placeholder="Enter prefix">
                     </div>
 
-                    <div class="form-group col-md-1">
+                    <div class="form-group col-md-6">
                         <label for="txtPaginate">Paginate</label>
                         <input type="number" class="form-control" value="10" id="txtPaginate" placeholder="">
                     </div>
@@ -236,7 +236,7 @@
         </div>
     </section>
 </div>
-<div class="col-md-10 col-md-offset-1">
+<div class="col-md-12">
     <section class="content">
         <div id="rollbackInfo" style="display: none"></div>
         <div class="box box-primary col-lg-12">
@@ -274,7 +274,7 @@
         </div>
     </section>
 </div>
-<div class="col-md-10 col-md-offset-1">
+<div class="col-md-12">
     <section class="content">
         <div id="schemaInfo" style="display: none"></div>
         <div class="box box-primary col-lg-12">

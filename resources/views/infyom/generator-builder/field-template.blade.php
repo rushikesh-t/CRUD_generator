@@ -1,10 +1,10 @@
 <td style="vertical-align: middle">
-    <input type="text" style="width: 100%" required class="form-control txtFieldName"/>
+    <input type="text" style="width: fit-content" required class="form-control txtFieldName"/>
     <input type="text" class="form-control foreignTable txtForeignTable" style="display: none"
            placeholder="Foreign table,Primary key"/>
 </td>
 <td style="vertical-align: middle">
-    <select class="form-control txtdbType" style="width: 100%">
+    <select class="form-control txtdbType" style="width: fit-content">
         <option value="increments">Increments</option>
         <option value="integer">Integer</option>
         <option value="smallInteger">SmallInteger</option>
@@ -30,10 +30,10 @@
            placeholder=""/>
 </td>
 <td style="vertical-align: middle">
-    <input type="text" class="form-control txtValidation"/>
+    <input type="text" class="form-control txtValidation" style="width: fit-content"/>
 </td>
 <td style="vertical-align: middle">
-    <select class="form-control drdHtmlType" style="width: 100%">
+    <select class="form-control drdHtmlType" style="width: fit-content">
         <option value="text">Text</option>
         <option value="email">Email</option>
         <option value="number">Number</option>
